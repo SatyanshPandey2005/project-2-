@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us Section</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f9f9f9;
+      color: #333;
+    }
+    .about-section {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 60px 10%;
+      background: #ffffff;
+    }
+    .about-image {
+      flex: 1;
+      text-align: center;
+    }
+    .about-image img {
+      max-width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    .about-content {
+      flex: 1;
+      padding: 0 40px;
+    }
+    .about-content h2 {
+      font-size: 2em;
+      margin-bottom: 20px;
+      color: #0056b3;
+    }
+    .about-content p {
+      font-size: 1.1em;
+      line-height: 1.8;
+      margin-bottom: 15px;
+    }
+    .about-content button {
+      padding: 12px 25px;
+      background-color: #0056b3;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      font-size: 1em;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+    .about-content button:hover {
+      background-color: #003f80;
+    }
+    @media (max-width: 768px) {
+      .about-section {
+        flex-direction: column;
+        text-align: center;
+      }
+      .about-content {
+        padding: 20px 0 0 0;
+      }
+    }
+    .service h1{
+        text-align: center;
+        font-weight: 700;
+        font-size: 48px;
+        display: block;
+        font-family: sans-serif system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+.service p{
+        text-align: center;
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+      gap: 20px; /* space between grid items */
+      padding: 20px;
+      border: #333;box-shadow: #333;
+    }
+
+    .grid-item {
+      background-color:whitesmoke;
+      color: white;
+      padding: 30px;
+      text-align: center;
+      border-radius: 8px;
+      font-size: 20px;
+    }
+    .grid-item h3{
+        color: black; 
+    }
+    .grid-item p{
+        color: black;
+    }
+    footer {
+      background-color: black;
+      padding: 30px 20px;
+      font-family: Arial, Helvetica, sans-serif;
+      color: #333;
+      text-align: center;
+      margin-top: 40px;
+    }
+    footer h3 {
+      margin-bottom: 10px;
+      font-size: 1.4em;
+      color: white;
+    }
+    footer p {
+      margin: 5px 0;
+      font-size: 0.95em;
+      color: white;
+    }
+    footer a {
+      color: #0073e6;
+      text-decoration: none;
+      margin: 0 8px;
+    }
+    footer a:hover {
+      text-decoration: underline;
+    }
+    .social-icons {
+      margin-top: 15px;
+    }
+    .social-icons a {
+      display: inline-block;
+      margin: 0 10px;
+      font-size: 1.4em;
+      color:white;
+      transition: color 0.3s ease;
+    }
+    .social-icons a:hover {
+      color: #0073e6;
+    }
+  </style>
+</head>
+<body>
+
+  <section class="about-section">
+    <div class="about-image">
+      <img src="https://truthinamericaneducation.com/wp-content/uploads/2023/06/4145153-1.jpg" alt="Online Learning">
+    </div>
+    <div class="about-content">
+      <h2>About Us</h2>
+      <p>Welcome to <strong>Online Learning</strong>, your trusted platform for online learning. We provide high‑quality courses, expert instructors, and an engaging community to help you achieve your goals.</p>
+      <p>Our mission is to make education accessible and enjoyable for everyone, everywhere. Whether you’re looking to upgrade your skills, change careers, or learn something new, we’re here to support you every step of the way.</p>
+      <button>Learn More</button>
+    </div>
+  </section>
+<section>
+    <div class="service">
+        <h1><b>Our Achievements</b></h1>
+    
+      <p>We're proud of what we've accomplished and the trust our clients place in us</p>
+    </div>
+    <div class="grid-container">
+  <div class="grid-item">
+    <h3>✔️500+ Successful Projects</h3>
+  </div>
+  <div class="grid-item">
+    <h3>✔️ 98% Client Satisfaction Rate</h3>
+  </div>
+  <div class="grid-item">
+    <h3>✔️ 5+ Years in Business</h3>
+  </div>
+  <div class="grid-item">
+    <h3>✔️ 24/7 Customer Support</h3>
+  </div>
+  <div class="grid-item">
+    <h3>✔️ Award-Winning Team</h3>
+  </div>
+  <div class="grid-item">
+    <h3>✔️ Global Client Base</h3>
+  </div>
+  </div>
+  </section>
+</body>
+<footer>
+    <h3>LearnHub</h3>
+    <p>© 2025 LearnHub. All rights reserved.</p>
+    <p>
+      <a href="#">About Us</a> |
+      <a href="#">Contact</a> |
+      <a href="#">Privacy Policy</a>
+    </p>
+    <div class="social-icons">
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-linkedin-in"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+    </div>
+  </footer>
+</html>
